@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1763630855 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\main.cpp
+	<tchar.h>
+	<windows.h>
+	<iostream>
+	<gdiplus.h>
+	"src/Definitions.h"
+	"src/GameManager.h"
+
+1763629979 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\gamemanager.h
+	<vector>
+	<sstream>
+	"Definitions.h"
+	"Dialogs/GameStartDialog.h"
+	"Dialogs/GameEndDialog.h"
+	"Character.h"
+	"Platform.h"
+
+1763631332 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\character.h
+	<windows.h>
+	<iostream>
+	<gdiplus.h>
+	<algorithm>
+	"Timer.h"
+	"Definitions.h"
+
+1763628476 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\character.cpp
+	"Character.h"
+
+1763632077 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\gamemanager.cpp
+	"GameManager.h"
+
+1763228647 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\platform.cpp
+	"Platform.h"
+
+1763629958 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\definitions.h
+
+1763230538 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\platform.h
+	<windows.h>
+	<iostream>
+	<gdiplus.h>
+
+1763224688 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\timer.h
+	<Windows.h>
+
+1763224767 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\timer.cpp
+	"Timer.h"
+
+1763299346 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\gameenddialog.h
+	<windows.h>
+
+1763394426 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\gameenddialog.rc
+	"GameEndDialog.h"
+
+1763296826 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\dialog.rc
+	"dialog.h"
+
+1763296826 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\dialog.h
+	<windows.h>
+
+1763299346 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\dialogs\gameenddialog.h
+	<windows.h>
+
+1763310933 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\dialogs\gamestartdialog.h
+	<windows.h>
+
+1763394426 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\dialogs\gameenddialog.rc
+	"GameEndDialog.h"
+
+1763624718 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\dialogs\gamestartdialog.rc
+	"GameStartDialog.h"
+
+1763386033 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\filemanager.h
+	<Windows.h>
+	<string>
+	<vector>
+	<iostream>
+
+1763392077 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\filemanager.cpp
+	"FileManager.h"
+
+1763310933 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\dialogs\\gamestartdialog.h
+	<windows.h>
+
+1763299346 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\dialogs\\gameenddialog.h
+	<windows.h>
+
+1763310933 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\gamestartdialog.h
+	<windows.h>
+
+1763394433 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimb\src\gamestartdialog.rc
+	"GameStartDialog.h"
+

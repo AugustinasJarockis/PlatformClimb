@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1763392866 source:c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimbdll\main.cpp
+	"main.h"
+
+1763392859 c:\users\jarau\desktop\dalykai\programavimas windows api\platformclimbdll\main.h
+	<windows.h>
+	<string>
+	<vector>
+

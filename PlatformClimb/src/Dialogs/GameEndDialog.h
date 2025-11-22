@@ -1,0 +1,5 @@
+#include <windows.h>
+
+#define GAME_END_DIALOG 10000
+#define RETRY_BUTTON_DIALOG 10001
+#define DIALOG_SCORE_TEXT 10002

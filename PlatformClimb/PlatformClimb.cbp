@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PlatformClimb" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PlatformClimb" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="gdiplus" />
+					<Add library="gdi32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PlatformClimb" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="comctl32" />
+		</Linker>
+		<Unit filename="PlatformClimbDLL.dll" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Character.cpp" />
+		<Unit filename="src/Character.h" />
+		<Unit filename="src/Definitions.h" />
+		<Unit filename="src/Dialogs/GameEndDialog.h" />
+		<Unit filename="src/Dialogs/GameEndDialog.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="src/Dialogs/GameStartDialog.h" />
+		<Unit filename="src/Dialogs/GameStartDialog.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="src/GameManager.cpp" />
+		<Unit filename="src/GameManager.h" />
+		<Unit filename="src/Platform.cpp" />
+		<Unit filename="src/Platform.h" />
+		<Unit filename="src/Timer.cpp" />
+		<Unit filename="src/Timer.h" />
+		<Unit filename="tex/Ball.bmp" />
+		<Unit filename="tex/Ball.png" />
+		<Unit filename="tex/Platform.png" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

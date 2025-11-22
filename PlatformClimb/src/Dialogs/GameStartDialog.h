@@ -1,0 +1,5 @@
+#include <windows.h>
+
+#define GAME_START_DIALOG 20000
+#define START_BUTTON_DIALOG 20001
+#define DIALOG_NAME_TEXT 20002

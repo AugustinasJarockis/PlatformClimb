@@ -1,0 +1,8 @@
+Leaderboard:
+Pietro: 23
+Jon: 21
+Luigi: 18
+Pietro: 18
+Luigi: 9
+Jon: 6
+Luigi: 6
